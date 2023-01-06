@@ -1,0 +1,24 @@
+---
+-summary: |
+  Выбор товара по названию бренда 
+requirement: |
+  Товары фильтруются по названию бренда
+prerequisites: |
+  Открыта страница https://hexlet-products-store.vercel.app/
+steps: |
+  - Выбрать бренд "Samsung"
+expected-result: |
+  на странице остаются товары, выпущенные фирмой "Samsung"
+
+---
+-summary: |
+  Добавить товар "iPhone 9" в корзину
+requirement: |
+  Выбранный товар добавляется в корзину
+prerequisites: |
+  Открыта страница https://hexlet-products-store.vercel.app/
+steps: |
+  - В окне "iPhone 9", нажать кнопку "В корзину"
+  - Нажать кнопку "Корзина"
+expected-result: |
+  "iPhone 9" добавлен в "Корзину"
