@@ -5,7 +5,6 @@ test-cases:
 status: |
   pass
 ---
-
 -summary: |
   Добавить товар "iPhone 9" в корзину
 status: |
