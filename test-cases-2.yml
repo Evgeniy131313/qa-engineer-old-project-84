@@ -48,7 +48,7 @@ requirement: |
 prerequisites: |
   Открыта страница https://hexlet-products-store.vercel.app/
 steps: |
-  В окне "Цена/Price" указать границы от 50$ до 100$
+  - В окне "Цена/Price" указать границы от 50$ до 100$
 expected-result: |
   На странице отобразятся товары с ценой от 50$ до 100$
 
@@ -95,7 +95,7 @@ prerequisites: |
   Пользователь авторизирован на https://ru.hexlet.io
   Открыта страница https://hexlet-products-store.vercel.app
 steps: |
-  Нажать кнопку "Следующая/Next"
+  - Нажать кнопку "Следующая/Next"
 expected-result: |
   Выполнен переход на следующую страницу магазина
 
