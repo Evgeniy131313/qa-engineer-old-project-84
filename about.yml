@@ -3,7 +3,8 @@ name: Evgeniy Zaitsev
 job: QA Engineer
 level: junior
 email: tan4716@yandex.ru
-description: В 51 год, я решил, что пора что-то менять в своей жизни. И
+description: |
+  В 51 год, я решил, что пора что-то менять в своей жизни. И
 пришел учиться в Hexlet.
 skills: 
   - теория тестирования
