@@ -5,6 +5,8 @@
     Товары фильтруются по названию бренда
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - Выбрать бренд "Samsung"
   expected-result: |
@@ -16,6 +18,8 @@
     Выбранный товар добавляется в корзину
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |
+    Пользователь авторизован
   steps: 
     - В окне "iPhone 9", нажать кнопку "В корзину"
     - Нажать кнопку "Корзина"
@@ -27,7 +31,9 @@
   requirement: |
     При клике по карточке товара "Samsung Galaxy Book", отображается страница с информацией о товаре  
   prerequisites: |
-    Открыта страница https://hexlet-products-store.vercel.app  
+    Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - Кликнуть по карточке товара "Samsung Galaxy Book"
   expected-result: |
@@ -39,6 +45,8 @@
     При выборе товара "iPhone X", он отображается в корзине
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - Кликнуть по карточке товара "iPhone X"
     - Кликнуть по кнопке "Корзина/Cart"
@@ -52,6 +60,8 @@
   prerequisites: 
     - Открыта страница https://hexlet-products-store.vercel.app/ 
     - В "Корзину" помещен "iPhone X"
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - Кликнуть по кнопке "Корзина/Cart"
     - Кликнуть по кнопке "Удалить/Delete"
@@ -65,6 +75,8 @@
     указанных границах цены
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - В окне "Цена/Price" указать границы от 50$ до 100$
   expected-result: |
@@ -77,6 +89,8 @@
     в "Корзину" ранее
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |    
+    Пользователь авторизован
   Steps: 
     - Нажать на карточке "iPhone 9" кнопку в "Корзину/Add to cart"
     - Нажать на карточке "iPhone X" кнопку в "Корзину/Add to cart"
@@ -95,6 +109,8 @@
   prerequisites: 
     - Открыта страница https://hexlet-products-store.vercel.app/cart
     - В "Корзину" помещены "iPhone 9, iPhone X, MacBook Pro"
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - На странице нажать кнопку "Очистить корзину/Clear cart"
   expected-result: |
@@ -109,6 +125,8 @@
     - Установлен Google Chrome (версия 108.0.5359.126., официальная сборка 64-бит)
     - Пользователь авторизирован на https://ru.hexlet.io
     - Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - Нажать кнопку "Следующая/Next"
   expected-result: |
@@ -124,6 +142,8 @@
     - Установлен Microsoft Edge (версия 109.0.1518.64., официальная сборка 64-бит)
     - Пользователь авторизирован на https://ru.hexlet.io
     - Открыта страница https://hexlet-products-store.vercel.app
+  test-data: |    
+    Пользователь авторизован
   steps: 
     - Нажать кнопку "Язык/Language"
     - В выпавшем списке нажать "Russian"
