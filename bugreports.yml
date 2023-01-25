@@ -1,7 +1,7 @@
 ---
 - summary: |
     Не работает поиск по названию "Apple" 
-  enviroment: |
+  environment: |
     Google Chrome       08.0.5359.125 (Официальная сборка) (64 бит) 
     ОС Windows 10 Pro
   steps-to-reproduce: |
