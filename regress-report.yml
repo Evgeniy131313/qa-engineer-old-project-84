@@ -8,6 +8,38 @@ test-cases:
       Добавить товар "iPhone 9" в корзину
     status: pass
   
+  - summary: |
+      Просмотр информации о товаре
+    status: pass
+
+  - summary: |
+      Помещение товара в корзину
+    status: pass
+
+  - summary: |
+      Удаление товара из корзины
+    status: pass
+
+  - summary: |
+      Фильтрация товара по цене
+    status: pass
+
+  - summary: |
+      Добавление товара в корзину
+    status: pass
+
+  - summary: |
+      Удаление нескольких товаров из "Корзине"
+    status: pass
+
+  - summary: |
+      Переключение страниц hexlet-product-store.vercel.app в браузере Google Chrome
+    status: pass
+
+  - summary: |
+      Выбор "Языка" отображения информации на странице магазина в браузере Microsoft Edge
+    status: pass
+
 bugreports:
   - summary: |
       Не работает поиск по названию "Apple" 
