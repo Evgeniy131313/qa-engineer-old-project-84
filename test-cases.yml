@@ -57,9 +57,9 @@
     Удаление товара из корзины
   requirement: |
     При нажатии на кнопку "Удалить/Delete", "iPhone X" будет удален из "Корзины" 
-  prerequisites: 
-    - Открыта страница https://hexlet-products-store.vercel.app/ 
-    - В "Корзину" помещен "iPhone X"
+  prerequisites: |
+    Открыта страница https://hexlet-products-store.vercel.app 
+    В "Корзину" помещен "iPhone X"
   test-data: |    
     Пользователь авторизован
   steps: 
@@ -92,7 +92,6 @@
     Пользователь авторизован
   Steps: 
     - Нажать на карточке "iPhone 9" кнопку в "Корзину/Add to cart"
-    - Нажать на карточке "iPhone X" кнопку в "Корзину/Add to cart"
     - Нажать кнопку "Корзина/Cart"
     - В открывшемся окне нажать кнопку "Продолжить покупки/Continue shopping"
     - Нажать на карточке "MacBook Pro" кнопку в "Корзину/Add to cart"
@@ -104,9 +103,9 @@
     Удаление нескольких товаров из "Корзины"
   requirement: |
     Удаление товаров, ранее помещенных в "Корзину", одним действием
-  prerequisites: 
-    - Открыта страница https://hexlet-products-store.vercel.app/cart
-    - В "Корзину" помещены "iPhone 9, iPhone X, MacBook Pro"
+  prerequisites: | 
+    Открыта страница https://hexlet-products-store.vercel.app/cart
+    В "Корзину" помещены "iPhone 9, iPhone X, MacBook Pro"
   test-data: |    
     Пользователь авторизован
   steps: 
@@ -119,10 +118,10 @@
   requirement: |
     Открытие страницы магазина hexlet-products-store.vercel.app в
     браузере Google Chrome, с переключением на следующую страницу
-  prerequisites: 
-    - Установлен Google Chrome (версия 108.0.5359.126., официальная сборка 64-бит)
-    - Пользователь авторизирован на https://ru.hexlet.io
-    - Открыта страница https://hexlet-products-store.vercel.app
+  prerequisites: |
+    Установлен Google Chrome (версия 108.0.5359.126., официальная сборка 64-бит)
+    Пользователь авторизирован на https://ru.hexlet.io
+    Открыта страница https://hexlet-products-store.vercel.app
   test-data: |    
     Пользователь авторизован
   steps: 
@@ -134,10 +133,10 @@
     Выбор "Языка" отображения информации на странице магазина в браузере  Microsoft Edge
   requirement: |
     Информация на странице магазина отображается на выбранном "языке" в браузере Microsoft Edge
-  prerequisites: 
-    - Установлен Microsoft Edge (версия 109.0.1518.64., официальная сборка 64-бит)
-    - Пользователь авторизирован на https://ru.hexlet.io
-    - Открыта страница https://hexlet-products-store.vercel.app
+  prerequisites: |
+    Установлен Microsoft Edge (версия 109.0.1518.64., официальная сборка 64-бит)
+    Пользователь авторизирован на https://ru.hexlet.io
+    Открыта страница https://hexlet-products-store.vercel.app
   test-data: |    
     Пользователь авторизован
   steps: 
