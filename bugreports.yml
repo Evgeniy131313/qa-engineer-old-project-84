@@ -2,7 +2,8 @@
 - summary: |
     Не работает поиск по названию "Apple" 
   enviroment: |
-    Google Chrome 108.0.5359.125 (Официальная сборка) (64 бит) ОС Windows 10 Pro
+    Google Chrome       108.0.5359.125 (Официальная сборка) (64 бит) 
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
     2. В окно "Поиск/Search" ввести "Apple"
