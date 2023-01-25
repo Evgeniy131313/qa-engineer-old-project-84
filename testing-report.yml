@@ -21,7 +21,7 @@
 
 - summary: |
     Фильтрация товара по цене
-  status:  pass
+  status: pass
 
 - summary: |
     Добавление товара в корзину
@@ -37,4 +37,4 @@
 
 - summary: |
     Выбор "Языка" отображения информации на странице магазина в браузере Microsoft Edge
-  status:  pass
+  status: pass
