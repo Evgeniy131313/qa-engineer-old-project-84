@@ -90,7 +90,7 @@
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |    
     Пользователь авторизован
-  Steps: 
+  steps: 
     - Нажать на карточке "iPhone 9" кнопку в "Корзину/Add to cart"
     - Нажать кнопку "Корзина/Cart"
     - В открывшемся окне нажать кнопку "Продолжить покупки/Continue shopping"
