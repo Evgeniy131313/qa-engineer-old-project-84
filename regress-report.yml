@@ -39,19 +39,5 @@ test-cases:
   - summary: |
       Выбор "Языка" отображения информации на странице магазина в браузере Microsoft Edge
     status: pass
-
-bugreports:
-  - summary: |
-      Не работает поиск по названию "Apple" 
-    environment: |
-      Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
-      ОС Windows 10 Pro
-    steps-to-reproduce: |
-      1. Зайти на страницу https://hexlet-products-store.vercel.app
-      2. В окно "Поиск/Search" ввести "Apple"
-    expected-result: |
-      На странице отображены товары фирмы "Apple"
-    actual-result: |
-      На странице отображена надпись "Nothing found!"
       
- bugreports: []      
+ bugreports: []  
