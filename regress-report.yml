@@ -39,5 +39,5 @@ test-cases:
   - summary: |
       Выбор "Языка" отображения информации на странице магазина в браузере Microsoft Edge
     status: pass
-      
- bugreports: []  
+    
+bugreports: []  
