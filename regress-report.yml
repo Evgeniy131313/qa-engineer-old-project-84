@@ -53,3 +53,5 @@ bugreports:
       На странице отображены товары фирмы "Apple"
     actual-result: |
       На странице отображена надпись "Nothing found!"
+      
+bugreports: []      
