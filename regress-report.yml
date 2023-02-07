@@ -54,5 +54,4 @@ bugreports:
     actual-result: |
       На странице отображена надпись "Nothing found!"
       
-bugreports: 
-  []      
+ bugreports: []      
